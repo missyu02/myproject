@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/cart/cart",
+    "pages/userConsole/userConsole"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "我的tao圈",
+    "navigationBarTextStyle":"black",
+    "navigationBarBackgroundColor": "#F08080",
+    "backgroundColor": "#F08080"
+  },
+  "tabBar":{
+    "borderStyle":"black",
+    "selectedColor":"#FF4040",
+    "list":[
+      {
+      "pagePath":"pages/home/home",
+      "iconPath": "/images/home.png",
+      "selectIconPath": "/images/home_select.png",
+      "text": "首页"
+      },
+      {
+        "pagePath":"pages/classify/classify",
+        "iconPath":"/images/classify.png",
+        "selectIconPath": "/images/classify_select.png",
+        "text":"分类"
+      },
+      {
+        "pagePath":"pages/cart/cart",
+        "iconPath":"/images/cart.png",
+        "selectIconPath": "/images/cart_select.png",
+        "text":"购物车"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"/images/mine.png",
+        "selectIconPath": "/images/mine_select.png",
+        "text":"我的"
+      } 
+    ]
+  }
+
+  }
+

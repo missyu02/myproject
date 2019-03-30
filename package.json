@@ -1,0 +1,31 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "character-parser": "^3.1.0",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.14.7",
+    "production": "0.0.2",
+    "vant-weapp": "^0.5.7",
+    "vue": "^2.6.8",
+    "vue-cli": "^2.9.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://baidu.com"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

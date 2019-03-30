@@ -1,0 +1,129 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+  <view class="box">
+  <view class='header'>
+    <view class="header1" wx:for="{{list}}">
+    <view style='width:140rpx;position:relative;'>
+      <view>{{item.count}}</view>
+      <view>{{item.name}}</view>
+      <view wx:if='{{index}}' class='decoration' style='position:absolute;top:20rpx;left:-20rpx;'>|</view>
+    </view>
+    </view>
+    <!-- <view class='header2'>
+      <view class='one'>20</view>
+      <view class='one'>收藏夹</view>
+      <view class='two'></view>
+    </view>
+     <view class='header2'>
+      <view class='one'>5</view>
+      <view class='one'>关注店铺</view>
+      <view class='two'>|</view>
+    </view>
+     <view class='header2'>
+      <view class='one'>53</view>
+      <view class='one'>我的足迹</view>
+      <view class='two'>|</view>
+    </view>
+     <view class='header2'>
+      <view class='one'>4</view>
+      <view class='one'>红包卡券</view>
+      <view class='two'>|</view>
+    </view> -->
+    </view>
+    <view class="content">
+      <view class="sha-content">
+           <view class="placeholder1">我的订单</view>
+            <view class="placeholder2">查看全部订单 ></view>
+      </view>
+      <view class='fenge'>
+       <view class='divLine'></view>
+      </view>
+      <view class='xia-content'>
+        <view class='hello' style='position:relative;display:flex;flex-direction: column;'>
+          <view class='iconfont icon-weibiaoti2fuzhi04'></view>
+          <view class='dingdan'>待付款</view>
+          <view class='service1'></view>
+        </view>
+        <view class='hello' style='position:relative;display:flex;flex-direction: column;'>
+          <view class='iconfont icon-daifahuo'></view>
+          <view class='dingdan'>待发货</view>
+          <view class='service1'></view>
+        </view>
+        <view class='hello' style='position:relative;display:flex;flex-direction: column;'>
+          <view class='iconfont icon-daishouhuo'></view>
+          <view class='dingdan'>待收货</view>
+          <view class='service1'></view>
+        </view>
+        <view class='hello' style='position:relative;display:flex;flex-direction: column;'>
+          <view class='iconfont icon-daipingjia01'></view>
+          <view class='dingdan'>待评价</view>
+          <view class='service'>3</view>
+        </view>
+        <view class='hello' style='position:relative;display:flex;flex-direction: column;'>
+          <view class='iconfont icon-tuihuo'></view>
+          <view class='dingdan'>退货/售后</view>
+          <view class='service1'></view>
+        </view>
+        </view>
+      </view>
+   </view>
+   <view>
+       <!-- <view class='iconfont icon-yuanxing'></view> -->
+       </view>
+    <view class="footer">
+      <view class='footer1'>
+            <view class="placeholder1">必备工具</view>
+            <view class="placeholder2">查看全部工具 ></view>
+      </view>
+      <view class='fenge2'>
+      <view class='divLine'></view>
+      </view>
+      <view class='footer2'>
+            <view class="iconfont icon-shouhuodizhi"></view>
+            <view class='iconfont icon-gerenzhongxin1'></view>
+            <view class='iconfont icon-pintuankaituancantuan'></view>
+            <view class='iconfont icon-kefu'></view>
+            <view class='item'>收获地址</view>
+            <view class='item'>团长中心</view>
+            <view class='item'>我的拼团</view>
+            <view class='item'>用户客服</view>
+            <view class="iconfont icon-dazhuanpan"></view>
+            <view class='iconfont icon-fenxiao'></view>
+            <view class='iconfont icon-miaosha'></view>
+            <view class='iconfont icon-jifen'></view>
+            <view class='item'>大转盘</view>
+            <view class='item'>分销</view>
+            <view class='item'>秒杀</view>
+            <view class='item'>积分</view>
+          </view>
+        </view>
+   <view class="end">- 猜你喜欢 -
+   <view class='two-end'>
+      <view class="end1">
+        <view class='row'>
+          <view class='row1'><image src="/images/cainixihuan1.png"></image></view>
+          <view class='row2'>18年新蒲田特产干货农家核小肉厚荔枝肉干...</view>
+          <view class='row3'>￥24.14</view>
+        </view>
+        </view>
+        <view class='end2'>
+        <view class='row'>
+          <view class='row1'><image src="/images/cainixihuan2.png"></image></view>
+          <view class='row2'>18年新蒲田特产干货农家核小肉厚荔枝肉干...</view>
+          <view class='row3'>￥24.14</view>
+        </view>
+      </view>
+    </view>
+    </view>
+      </view>
+        </view>
+    <text class="user-motto">{{motto}}
+    </text>

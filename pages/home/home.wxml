@@ -1,0 +1,155 @@
+<!--pages/home/home.wxml-->
+<text>
+</text>
+<view class='home'>
+<view class='home1'>
+<view class='top'>粤西手信</view>
+<view class='above'>
+  <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">
+              <view class='location'>
+              <view class='iconfont icon-dizhi-01'></view>
+              <view class='where'>官渡社区</view>
+              </view>
+            </view></view>
+            <view class="weui-flex__item"><view class="placeholder"><view class='turn'>切换 ></view></view></view>
+            <view class="weui-flex__item"><view class="placeholder">
+            <view class='search'>请输入关键词</view>
+            <view class='iconfont icon-sousuo'></view>
+            </view>
+        </view>
+</view>
+</view>
+</view>
+<view class='home2' style='background-color:#F5F5F5;position:relative;'>
+<view class='middle'>
+  <view class='up-middle'>
+    <view><image src='/images/zhaomu.png'></image></view>
+  </view>
+  <view class='down-middle'>
+  <view class='item1'>
+  <view class='item'>
+    <view class='iconfont icon-qiandao'></view>
+    <view>签到有礼</view>
+    </view>
+    <view class='item'>
+    <view class='iconfont icon-gerenzhongxin'></view>
+    <view>成为团长</view>
+    </view>
+    <view class='item'>
+    <view class='iconfont icon-jifenshangcheng'></view>
+    <view>积分商城</view>
+    </view>
+    <view class='item'>
+    <view class='iconfont icon-piaoquan'></view>
+    <view>领券中心</view>
+    </view>
+    </view>
+    <view class='item2'>
+   <view class='divLine' style=''></view>
+  </view>
+  <view class='item3'>
+    <view class='title'>头条</view>
+    <view>粤西手信商城招募社区团长,详细咨询：13369548258</view>
+  </view>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='up-bottom'>
+    <view class='clock'>
+    <view class='iconfont icon-miaosha1'></view>
+    <view class='qianggou'>限时抢购</view>
+    </view>
+    <view class='clock'>
+    <view class='clock1'>仅剩</view>
+    <view class='clock1'>{{day}}</view>
+    <view class='clock1'>天</view>
+    <view wx:for='{{clock}}'>
+    <view  class='clock2' style='border:2rpx solid #AEEEEE;background-color:#AEEEEE;border-radius:10rpx;padding:0rpx 10rpx;margin:0rpx 15rpx;position:relative;left:7rpx;'>{{item}}</view>
+    <view  class='clock1' wx:if='{{index}}' style='position:absolute;top:105rpx;'>:</view>
+  </view>
+  </view>
+  </view>
+   <view class='middle-bottom'>
+  <view class='box'>
+    <view><image src='/images/eat.png'></image></view>
+    <view class='time'>芒果干100g蜜饯果脯新鲜水果干</view>
+    <view style='color:#F08080' class='time'>￥12.00</view>
+    </view>
+      <view class='box'>
+    <view><image src='/images/eat.png'></image></view>
+    <view class='time'>芒果干100g蜜饯果脯新鲜水果干</view>
+    <view style='color:#F08080' class='time'>￥12.00</view>
+    </view>
+      <view class='box'>
+    <view><image src='/images/eat.png'></image></view>
+    <view class='time'>芒果干100g蜜饯果脯新鲜水果干</view>
+    <view style='color:#F08080' class='time'>￥12.00</view>
+    </view>
+  </view>
+  <view class='down-bottom'style='font-size:20rpx;'>
+  <view class='all-fs'>
+  <view class='first' >
+    <view class='fruit'>
+      <view class='fruit1' style='background-color:#AEEEEE;border-radius:20rpx;width:105rpx;height:40rpx;color:#FFFFFF;text-align:center;padding-top:5rpx;margin:-5rpx 0;'>荔枝</view>
+      <view class='fruit2' style='left:130rpx;'>|</view>
+    </view>
+     <view class='fruit'>
+      <view class='fruit1'>芒果</view>
+      <view class='fruit2' style='left:210rpx;'>|</view>
+    </view>
+     <view class='fruit'>
+      <view class='fruit1'>番石榴</view>
+      <view class='fruit2' style='left:305rpx;'>|</view>
+    </view>
+     <view class='fruit'>
+      <view class='fruit1'>日用品</view>
+      <view></view>
+    </view>
+    </view>
+  <!-- <view class='first' style='color:#575757;'>
+    <view class='first1' wx:for='{{selection}}'>
+      <view style='position:relative;width:110rpx;font-size:30rpx;'>
+      <view></view>
+      </view>
+      <view wx:if='{{index}}' class='decoration' style='position:absolute;color:#CDC0B0;top:-10rpx;'>|</view> -->
+    
+      <view class='second'>
+      <view>更多 ></view>
+      </view>
+      </view>
+    <view class='three'>
+    <view class='bag'>
+      <image src='/images/fruit.png'></image>
+      <view class='bag3'>
+      <view>18年新莆田特产干货农家 核小肉厚肉干 无硫...</view>
+      <view class='bag1'>
+      <view class='send'>包邮</view>
+      <view class='fresh'>新鲜</view>
+      </view>
+      <view class='bag2'>
+      <view>￥23.87</view>
+      <view class='iconfont icon-gouwuche' style='margin-top:-25rpx;'></view>
+      </view>
+    </view>
+    </view>
+    <view class='divLine'></view>
+         <view class='bag'>                                                                               
+      <image src='/images/fruit.png'></image>
+      <view class='bag3'>
+      <view>18年新莆田特产干货农家 核小肉厚肉干 无硫...</view>
+      <view class='bag1'>
+      <view class='send'>包邮</view>
+      <view class='fresh'>新鲜</view>
+      </view>
+      <view class='bag2'>
+      <view>￥23.87</view>
+      <view class='iconfont icon-gouwuche' style='margin-top:-25rpx;'></view>
+      </view>
+    </view>
+    </view>
+    </view>
+  </view>
+</view>
+</view>
+</view>

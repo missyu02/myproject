@@ -1,0 +1,259 @@
+.home{
+  background-color: #F08080;
+}
+.home2{
+  background-color: blue;
+}
+
+.top{
+  color: #FFFFFF;
+  margin-left: 20px;
+  font-size: 28rpx;
+}
+.above{
+  padding-top: 20px;
+  display: flex;
+  height: 300rpx;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.above .location{
+  display: flex;
+  width: 200rpx;
+}
+.above .search{
+  border: 1px solid #FFFFFF;
+  font-size: 20rpx;
+  border-radius: 20rpx;
+  width: 366rpx;
+  position: relative;
+  color: #aaa;
+  opacity: 0.6;
+  padding: 10rpx 0 10rpx 20rpx;
+}
+.above .where{
+  color: #FFFFFF;
+  padding: 15rpx 20rpx;
+  font-size: 26rpx;
+}
+.above .turn{
+  font-size: 22rpx;
+  color: #aaa;
+  margin: 20rpx;
+  opacity: 0.6;
+}
+.middle{
+  position: relative;
+  height: 250px;
+}
+.up-middle{
+  position: relative;
+}
+.up-middle image{
+  position: absolute;
+  left: 10px;
+   border-radius: 10px;
+   width: 711rpx;
+   height: 302rpx;
+   top: -240rpx;
+}
+.up-middle view{
+
+}
+.down-middle{
+  background-color: #FFFFFF;
+  position: relative;
+  top: 80rpx;
+  height: 260rpx;
+  border-radius: 10rpx;
+  margin: 20rpx;
+}
+.down-middle .item1{
+  padding: 20px 0 10px 0;
+  display: flex;
+  flex-basis: 25%;
+  justify-content: space-around;
+  font-size: 20rpx;
+  color: #575757;
+  /* background-color: #FFFFFF; */
+  
+}
+.down-middle .item1 .iconfont{
+  display: flex;
+  justify-content: space-around;
+}
+.down-middle .item3{
+  display: flex;
+  flex-direction: row;
+  font-size: 20rpx;
+  color: #575757;
+  margin: 15px 0;
+  justify-content: space-around;
+}
+.down-middle .title{
+  background-color: #AEEEEE;
+  border-radius: 10rpx;
+  width: 95rpx;
+  height: 33rpx;
+  text-align: center;
+  color: #FFFFFF;
+}
+.down-middle .item{
+  display: flex;
+  flex-direction: column;
+}
+.divLine{
+  background-color: #E8E8E8;
+  margin:0 30rpx;
+  height: 2rpx;
+}
+.decoration{
+  color: #E8E8E8;
+  font-weight: 100;
+}
+.bottom{
+  position: relative;
+  height: 500px;
+  top: -170rpx;
+}
+.bottom .up-bottom{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.up-bottom .clock{
+  display: flex;
+  justify-content: center;
+  margin: -10rpx;
+}
+.clock .qianggou{
+  margin: 30rpx 10rpx ;
+  color: #F08080;
+  font-size: 40rpx;
+}
+.clock .clock1{
+  color: #aaa;
+  font-size: 16px;
+}
+.clock .clock2{
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.middle-bottom{
+  position: relative;
+  top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.middle-bottom image{
+  width: 206rpx;
+  height: 85px;
+  display: flex;
+}
+.middle-bottom .box{
+  display: flex;
+  width: 206rpx;
+  flex-direction: column;
+  font-size: 20rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+}
+.middle-bottom .box .time{
+  margin: 5rpx 15rpx 10rpx 15rpx;
+}
+.down-bottom{
+  top: 50rpx;
+  position: relative;
+  background-color: #FFFFFF;
+  margin: 20rpx;
+  border-radius: 10rpx;
+  height: 450rpx;
+}
+.down-bottom .first{
+  display: flex;
+  justify-content: space-around;
+  width: 400rpx;
+  margin: 20rpx 0;
+}
+.down-bottom .first .fruit1{
+  position: relative;
+  color: #575757;
+}
+.down-bottom .first .fruit2{
+  position: absolute;
+  top: 18rpx;
+  color: #E8E8E8;
+}
+.down-bottom .second{
+  display: flex;
+  font-size: 20rpx;
+  color: #F08080;
+  margin: 20rpx;
+}
+.down-bottom .all-fs{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20rpx;
+}
+.down-bottom .three{
+  display: flex;
+  font-size: 20rpx;
+  flex-direction: column;
+  border-radius: 10rpx;
+  background-color: #FFFFFF;
+  margin: 20rpx;
+}
+.down-bottom image{
+  width: 190rpx;
+  height: 145rpx;
+  padding: 10rpx;
+}
+.down-bottom .three .bag{
+  display: flex;
+  flex-direction: row;
+}
+.down-bottom .bag1{
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx;
+  font-size: 15rpx;
+}
+.down-bottom .bag3{
+  margin: 20rpx;
+}
+.down-bottom .send{
+  border: 1px solid #F08080;
+  color: #F08080;
+  border-radius: 30rpx;
+  padding: 5rpx 15rpx;
+}
+.down-bottom .fresh{
+  border: 1px solid #AEEEEE;
+  color: #AEEEEE;
+  border-radius: 30rpx;
+  padding: 5rpx 15rpx;
+  margin-left: 30rpx;
+}
+.down-bottom .bag2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FF0000;
+  font-size: 15rpx;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+.iconfont icon-dingwei{
+  color: #FFFFFF;
+}
